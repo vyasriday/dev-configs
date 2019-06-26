@@ -1,0 +1,22 @@
+{
+  "name": "react-configs",
+  "version": "1.0.0",
+  "description": "configs for eslint and prettier for a react project",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js, css}\" --write",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2"
+  }
+}
